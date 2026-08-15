@@ -1,0 +1,265 @@
+import type { Locale } from "./LanguageContext";
+
+export const uiText = {
+  tr: {
+    nav: {
+      anasayfa: "Ana Sayfa",
+      hakkimda: "Hakkımda",
+      projeler: "Projeler",
+      basarilar: "Başarılar",
+      blog: "Blog",
+      iletisim: "İletişim",
+    },
+    hero: {
+      greeting: "Merhaba, ben",
+      viewProjects: "Projelerime Göz At",
+      downloadCv: "Özgeçmişimi İndir",
+      contact: "İletişime Geç",
+    },
+    stats: {
+      projects: "Proje",
+      cityChampionship: "İl Birinciliği",
+      certificates: "Sertifika",
+      yearsExperience: "Yıl Deneyim",
+    },
+    about: {
+      eyebrow: "Hakkımda",
+      title: "Kısaca ben kimim",
+      age: "Yaş",
+      location: "Konum",
+      education: "Eğitim",
+      interests: "İlgi Alanları",
+    },
+    projects: {
+      eyebrow: "Projelerim",
+      title: "Üzerinde çalıştığım işler",
+      viewAll: "Tüm Projeler",
+      featured: "Öne çıkan",
+      view: "İncele",
+    },
+    skills: {
+      eyebrow: "Yeteneklerim",
+      title: "Kullandığım araçlar & teknolojiler",
+    },
+    achievements: {
+      eyebrow: "Başarılar",
+      title: "Ödüller & sertifikalar",
+      whatWasLearned: "Neler Öğrenildi",
+      viewCertificate: "Sertifikayı Görüntüle",
+      showAll: "Tümünü Gör",
+      showLess: "Daha Az Göster",
+    },
+    blog: {
+      eyebrow: "Blog",
+      title: "Yazılarım & notlarım",
+      readMore: "Devamını Oku",
+    },
+    contact: {
+      eyebrow: "İletişim",
+      title: "Hadi konuşalım",
+      intro:
+        "Bir proje fikrin mi var, staj/işbirliği teklifin mi var, ya da sadece merhaba mı demek istiyorsun? Aşağıdaki formu doldur, en kısa sürede dönüş yapayım.",
+      email: "E-posta",
+      location: "Konum",
+      name: "İsim",
+      namePlaceholder: "Adın Soyadın",
+      subject: "Konu",
+      subjectPlaceholder: "Neyle ilgili yazıyorsun?",
+      message: "Mesaj",
+      messagePlaceholder: "Mesajını buraya yaz...",
+      send: "Mesaj Gönder",
+      sending: "Gönderiliyor",
+      sent: "Gönderildi",
+    },
+    footer: {
+      quickLinks: "Hızlı Bağlantılar",
+      social: "Sosyal Medya",
+      rights: "Tüm hakları saklıdır.",
+    },
+    loader: {
+      lines: [
+        "$ whoami",
+        "ege_ridvan_tokmak",
+        "$ initializing portfolio...",
+        "$ modules yüklendi: security, dev, iot",
+        "$ hazır.",
+      ],
+    },
+  },
+  en: {
+    nav: {
+      anasayfa: "Home",
+      hakkimda: "About",
+      projeler: "Projects",
+      basarilar: "Achievements",
+      blog: "Blog",
+      iletisim: "Contact",
+    },
+    hero: {
+      greeting: "Hi, I'm",
+      viewProjects: "View My Projects",
+      downloadCv: "Download CV",
+      contact: "Get in Touch",
+    },
+    stats: {
+      projects: "Projects",
+      cityChampionship: "City Championship",
+      certificates: "Certificates",
+      yearsExperience: "Years of Experience",
+    },
+    about: {
+      eyebrow: "About Me",
+      title: "A little about me",
+      age: "Age",
+      location: "Location",
+      education: "Education",
+      interests: "Interests",
+    },
+    projects: {
+      eyebrow: "My Projects",
+      title: "Things I've built",
+      viewAll: "All Projects",
+      featured: "Featured",
+      view: "View",
+    },
+    skills: {
+      eyebrow: "My Skills",
+      title: "Tools & technologies I use",
+    },
+    achievements: {
+      eyebrow: "Achievements",
+      title: "Awards & certificates",
+      whatWasLearned: "What Was Learned",
+      viewCertificate: "View Certificate",
+      showAll: "Show All",
+      showLess: "Show Less",
+    },
+    blog: {
+      eyebrow: "Blog",
+      title: "Posts & notes",
+      readMore: "Read More",
+    },
+    contact: {
+      eyebrow: "Contact",
+      title: "Let's talk",
+      intro:
+        "Have a project idea, an internship/collaboration offer, or just want to say hi? Fill out the form below and I'll get back to you as soon as possible.",
+      email: "Email",
+      location: "Location",
+      name: "Name",
+      namePlaceholder: "Your full name",
+      subject: "Subject",
+      subjectPlaceholder: "What is this about?",
+      message: "Message",
+      messagePlaceholder: "Write your message here...",
+      send: "Send Message",
+      sending: "Sending",
+      sent: "Sent",
+    },
+    footer: {
+      quickLinks: "Quick Links",
+      social: "Social Media",
+      rights: "All rights reserved.",
+    },
+    loader: {
+      lines: [
+        "$ whoami",
+        "ege_ridvan_tokmak",
+        "$ initializing portfolio...",
+        "$ modules loaded: security, dev, iot",
+        "$ ready.",
+      ],
+    },
+  },
+  de: {
+    nav: {
+      anasayfa: "Startseite",
+      hakkimda: "Über mich",
+      projeler: "Projekte",
+      basarilar: "Erfolge",
+      blog: "Blog",
+      iletisim: "Kontakt",
+    },
+    hero: {
+      greeting: "Hallo, ich bin",
+      viewProjects: "Meine Projekte ansehen",
+      downloadCv: "Lebenslauf herunterladen",
+      contact: "Kontakt aufnehmen",
+    },
+    stats: {
+      projects: "Projekte",
+      cityChampionship: "Stadtmeisterschaft",
+      certificates: "Zertifikate",
+      yearsExperience: "Jahre Erfahrung",
+    },
+    about: {
+      eyebrow: "Über mich",
+      title: "Kurz zu meiner Person",
+      age: "Alter",
+      location: "Standort",
+      education: "Ausbildung",
+      interests: "Interessen",
+    },
+    projects: {
+      eyebrow: "Meine Projekte",
+      title: "Woran ich gearbeitet habe",
+      viewAll: "Alle Projekte",
+      featured: "Hervorgehoben",
+      view: "Ansehen",
+    },
+    skills: {
+      eyebrow: "Meine Fähigkeiten",
+      title: "Tools & Technologien, die ich nutze",
+    },
+    achievements: {
+      eyebrow: "Erfolge",
+      title: "Auszeichnungen & Zertifikate",
+      whatWasLearned: "Was gelernt wurde",
+      viewCertificate: "Zertifikat ansehen",
+      showAll: "Alle anzeigen",
+      showLess: "Weniger anzeigen",
+    },
+    blog: {
+      eyebrow: "Blog",
+      title: "Beiträge & Notizen",
+      readMore: "Weiterlesen",
+    },
+    contact: {
+      eyebrow: "Kontakt",
+      title: "Lass uns reden",
+      intro:
+        "Hast du eine Projektidee, ein Praktikums-/Kooperationsangebot oder möchtest einfach nur Hallo sagen? Fülle das untenstehende Formular aus, ich melde mich so schnell wie möglich.",
+      email: "E-Mail",
+      location: "Standort",
+      name: "Name",
+      namePlaceholder: "Dein vollständiger Name",
+      subject: "Betreff",
+      subjectPlaceholder: "Worum geht es?",
+      message: "Nachricht",
+      messagePlaceholder: "Schreibe hier deine Nachricht...",
+      send: "Nachricht senden",
+      sending: "Wird gesendet",
+      sent: "Gesendet",
+    },
+    footer: {
+      quickLinks: "Schnellzugriff",
+      social: "Soziale Medien",
+      rights: "Alle Rechte vorbehalten.",
+    },
+    loader: {
+      lines: [
+        "$ whoami",
+        "ege_ridvan_tokmak",
+        "$ initialisiere Portfolio...",
+        "$ Module geladen: security, dev, iot",
+        "$ bereit.",
+      ],
+    },
+  },
+} as const;
+
+export type UiText = (typeof uiText)[Locale];
+
+export function useUiText(locale: Locale): UiText {
+  return uiText[locale];
+}
